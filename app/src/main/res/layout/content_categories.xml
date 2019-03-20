@@ -6,17 +6,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:showIn="@layout/activity_main"
-        tools:context=".MainActivity">
+        tools:showIn="@layout/activity_categories"
+        tools:context=".Categories">
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical">
         <Button android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/view_categories_button"
-                android:text="@string/view_categories_button_text"
-                android:onClick="viewCategories"/>
+                android:id="@+id/add_category_button"
+                android:text="@string/add_category_button_text"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/categories_view"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

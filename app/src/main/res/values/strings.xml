@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">YDBookCatalogAndroid</string>
     <string name="action_settings">Settings</string>
+    <string name="view_categories_button_text">Категории</string>
+    <string name="add_category_button_text">Добавить категорию</string>
+    <string name="title_activity_categories">categories</string>
 </resources>
